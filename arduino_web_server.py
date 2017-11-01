@@ -107,8 +107,14 @@ class Handler(SimpleHTTPServer.SimpleHTTPRequestHandler):
         length = int(self.headers.getheader('content-length'))
         if length:
             text = self.rfile.read(length)
-                        
-            print "sketch to upload: " + text
+
+            print ""
+            print "START SKETCH ----------------------------------------------------------------"
+            print ""
+            print text
+            print ""
+            print "END SKETCH ------------------------------------------------------------------"
+            print ""
 
             dirname = tempfile.mkdtemp()
             sketchname = os.path.join(dirname, os.path.basename(dirname)) + ".ino"
