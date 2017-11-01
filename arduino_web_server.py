@@ -116,6 +116,7 @@ class Handler(SimpleHTTPServer.SimpleHTTPRequestHandler):
             print "END SKETCH ------------------------------------------------------------------"
             print ""
 
+
             dirname = tempfile.mkdtemp()
             sketchname = os.path.join(dirname, os.path.basename(dirname)) + ".ino"
             f = open(sketchname, "wb")
