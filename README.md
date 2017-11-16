@@ -4,7 +4,10 @@
 The Windows Executable that executes the Arduino Webserver is available [here](https://github.com/IOT-123/BlocklyDuino/blob/gh-pages/d1m_blockly_web_server.zip).
 Unzip it to a folder and run the file d1m_blockly_web_server.exe to start a local webserver that allows compile and upload of code from D1M BLOCKLY to your Wemos D1 Minis. 
 
-The Arduino environment needs toi be setup for the Wemos D1 Mini prior to using this function.
+The Arduino environment needs to be setup for the Wemos D1 Mini prior to using this function.
+
+
+
 
 ### Welcome to BlocklyDuino
 
