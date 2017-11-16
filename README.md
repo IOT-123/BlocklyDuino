@@ -1,6 +1,10 @@
 ### This a fork of BlocklyDuino/BlocklyDuino. 
 ### Some components are used and modified for D1M Blockly (under construction).
 
+The Windows Executable that executes the Arduino Webserver is available [here](https://github.com/IOT-123/BlocklyDuino/blob/gh-pages/d1m_blockly_web_server.zip).
+Unzip it to a folder and run the file d1m_blockly_web_server.exe to start a local webserver that allows compile and upload of code from D1M BLOCKLY to you Wemos D1 Minis. 
+The Arduino environment needs toi be setup for the Wemos D1 Mini prior to using this function.
+
 ### Welcome to BlocklyDuino
 
 BlocklyDuino is a **web-based visual programming editor for [Arduino](http://www.arduino.cc/)**.
